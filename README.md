@@ -11,5 +11,5 @@ To use this as a REST API with [JuliaBox](https://juliabox.org/):
     - use the following as command: `Pkg.clone("https://github.com/tanmaykm/Juliaset.jl.git"); using Juliaset; Juliaset.serve_juliabox();`
     - point the description URL to somewhere nice (or maybe to <https://github.com/tanmaykm/Juliaset.jl>)
 - Your REST API is now ready. Try the following URLs on your browser. Replace `<api_name>` with your chosen name.
-    - `http://api.juliabox.org/<api_name>/juliaset/` to get a random Julia set
-    - `http://api.juliabox.org/<api_name>/juliaset/<random_float>/<another_random_float>` to get one of your choice
+    - `https://api.juliabox.org/<api_name>/juliaset/` to get a random Julia set
+    - `https://api.juliabox.org/<api_name>/juliaset/<random_float>/<another_random_float>` to get one of your choice
